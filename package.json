@@ -10,7 +10,9 @@
     "@types/react": "^16.9.53",
     "@types/react-dom": "^16.9.8",
     "babel-plugin-dynamic-import-node": "^2.3.3",
+    "bootstrap": "^4.5.3",
     "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
     "sass": "^1.30.0",
@@ -44,6 +46,7 @@
   },
   "devDependencies": {
     "@chriscarrillo/ts": "^0.2.0",
+    "@types/react-bootstrap": "^0.32.25",
     "@typescript-eslint/eslint-plugin": "^4.9.1",
     "@typescript-eslint/parser": "^4.9.1",
     "eslint": "^7.15.0",
