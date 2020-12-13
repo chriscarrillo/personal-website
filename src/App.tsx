@@ -1,5 +1,9 @@
+import {Routes} from 'Routes'
+import {Banner} from 'components/Banner'
+import {Footer} from 'components/Footer'
+import {Header} from 'components/Header'
 import React from 'react'
-import logo from './logo.svg'
+import {BrowserRouter} from 'react-router-dom'
 
 /** Theme. */
 import './theme/app.scss'
@@ -9,17 +13,12 @@ import './theme/app.scss'
  * @return Main application.
  */
 const App: React.FC = () => (
-  <div className="App">
-    <header className="App-header">
-      <img alt="logo" className="App-logo" src={logo} />
-      <p>
-        Edit <code>src/App.tsx</code> and save to reload.
-      </p>
-      <a className="App-link" href="https://reactjs.org" rel="noopener noreferrer" target="_blank">
-        Learn React
-      </a>
-    </header>
-  </div>
+  <BrowserRouter>
+    <Banner />
+    <Header />
+    <Routes />
+    <Footer />
+  </BrowserRouter>
 )
 
 /**
