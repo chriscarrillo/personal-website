@@ -1,5 +1,12 @@
 @use 'src/theme/variables';
 
-.header {
+.navbar {
   border-bottom: 1px solid variables.$secondary;
+  height: 60px;
+}
+
+.navLink {
+  &:hover {
+    cursor: pointer;
+  }
 }

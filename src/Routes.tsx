@@ -1,6 +1,6 @@
+import {MainPage} from 'pages/Main'
 import React from 'react'
 import {Redirect, Route, Switch} from 'react-router-dom'
-import {HomePage} from './pages/Home'
 
 /**
  * Routes of the application.
@@ -8,7 +8,7 @@ import {HomePage} from './pages/Home'
  */
 export const Routes: React.FC = () => (
   <Switch>
-    <Route exact component={HomePage} path="/" />
+    <Route exact component={MainPage} path="/" />
     <Redirect to="/" />
   </Switch>
 )
