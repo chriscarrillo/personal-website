@@ -1,0 +1,5 @@
+@use 'src/theme/variables';
+
+.header {
+  border-bottom: 1px solid variables.$secondary;
+}

@@ -1,0 +1,11 @@
+@use 'src/theme/variables';
+
+.footer {
+  height: 80px;
+}
+
+.socialLink {
+  &:hover {
+    color: variables.$primary;
+  }
+}

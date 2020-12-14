@@ -7,14 +7,15 @@ import React from 'react'
 export const Banner: React.FC = () => (
   <div
     className="
-    bg-dark
-    w-100
-    d-flex
-    flex-column
-    justify-content-center
-    align-items-center
-    full-height
-    text-light"
+      bg-dark
+      w-100
+      d-flex
+      flex-column
+      justify-content-center
+      align-items-center
+      text-center
+      half-height
+      text-light"
   >
     <h1 className="mb-0">
       I&apos;m <span className="text-primary">Chris Carrillo</span>.

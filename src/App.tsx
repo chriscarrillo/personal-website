@@ -14,8 +14,8 @@ import './theme/app.scss'
  */
 const App: React.FC = () => (
   <BrowserRouter>
-    <Banner />
     <Header />
+    <Banner />
     <Routes />
     <Footer />
   </BrowserRouter>
