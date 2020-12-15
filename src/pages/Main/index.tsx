@@ -10,11 +10,11 @@ import {Element} from 'react-scroll'
  */
 export const MainPage: React.FC = () => (
   <>
-    <Element name="projects">
-      <Projects />
-    </Element>
     <Element name="about">
       <About />
+    </Element>
+    <Element name="projects">
+      <Projects />
     </Element>
     <Element name="contact">
       <Contact />

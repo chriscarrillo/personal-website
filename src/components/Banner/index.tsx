@@ -1,3 +1,4 @@
+import avatar from 'assets/images/avatar.svg'
 import styles from 'components/Banner/Banner.module.scss'
 import React from 'react'
 import {Element} from 'react-scroll'
@@ -18,13 +19,11 @@ export const Banner: React.FC = () => (
         justify-content-center
         align-items-center
         text-center
-        half-height
         text-light`}
     >
-      <h1 className="mb-0">
-        I&apos;m <span className="text-primary">Chris Carrillo</span>.
-      </h1>
-      <h2>I like software.</h2>
+      <img alt="Avatar" className="pt-2" src={avatar} />
+      <h1 className="pt-2 pb-1 mb-0 family-semi">Chris Carrillo</h1>
+      <h2 className="h6 pb-2">Software Engineer - Coffee Lover - Enneagram Enthusiast</h2>
     </div>
   </Element>
 )

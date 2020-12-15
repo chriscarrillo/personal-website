@@ -40,9 +40,9 @@ export const Header: React.FC = () => (
             activeClass="text-primary"
             as={Link}
             className={styles.navLink}
-            to="projects"
+            to="about"
           >
-            Projects
+            About
           </Nav.Link>
           <Nav.Link
             smooth
@@ -50,9 +50,9 @@ export const Header: React.FC = () => (
             activeClass="text-primary"
             as={Link}
             className={styles.navLink}
-            to="about"
+            to="projects"
           >
-            About
+            Projects
           </Nav.Link>
           <Nav.Link
             smooth
