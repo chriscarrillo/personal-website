@@ -87,24 +87,23 @@ export const Projects: React.FC = () => {
       </span>
     ))
     const repoLink = project.repositoryLink !== undefined && project.repositoryLink.length > 0 && (
-      <a
-        className="social-link text-dark pr-2"
-        href={project.repositoryLink}
-        rel="noreferrer"
-        target="_blank"
-      >
-        <FaGithub size={26}>GitHub</FaGithub>
+      <a className="text-dark pr-2" href={project.repositoryLink} rel="noreferrer" target="_blank">
+        <FaGithub className="social-link" size={26}>
+          GitHub
+        </FaGithub>
       </a>
     )
     const projectLink = project.link !== undefined && project.link.length > 0 && (
       <a
-        className="social-link text-dark"
+        className="text-dark"
         href={project.link}
         rel="noreferrer"
         target="_blank"
         title="See it live!"
       >
-        <FaExternalLinkAlt size={26}>{project.name}</FaExternalLinkAlt>
+        <FaExternalLinkAlt className="social-link" size={26}>
+          {project.name}
+        </FaExternalLinkAlt>
       </a>
     )
 

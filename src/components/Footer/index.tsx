@@ -22,7 +22,7 @@ export const Footer: React.FC = () => (
             rel="noreferrer"
             target="_blank"
           >
-            <FaGithub className="socialLink" size={32}>
+            <FaGithub className="social-link" size={32}>
               GitHub
             </FaGithub>
           </a>
@@ -34,7 +34,7 @@ export const Footer: React.FC = () => (
             rel="noreferrer"
             target="_blank"
           >
-            <FaLinkedin className="socialLink" size={32}>
+            <FaLinkedin className="social-link" size={32}>
               LinkedIn
             </FaLinkedin>
           </a>
@@ -46,7 +46,7 @@ export const Footer: React.FC = () => (
             rel="noreferrer"
             target="_blank"
           >
-            <FaInstagram className="socialLink" size={32}>
+            <FaInstagram className="social-link" size={32}>
               Instagram
             </FaInstagram>
           </a>
