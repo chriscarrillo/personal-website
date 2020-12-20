@@ -1,4 +1,6 @@
 import klawWeb from 'assets/images/klaw-web.png'
+import napkin from 'assets/images/napkin.png'
+import reciplease from 'assets/images/reciplease.png'
 import {Project} from 'models'
 import React from 'react'
 import {Card, CardDeck, Col, Container, Row} from 'react-bootstrap'
@@ -12,7 +14,7 @@ const projects: Project[] = [
     link: '',
     name: 'Portfolio',
     repositoryLink: 'https://github.com/chriscarrillo/personal-website',
-    technologies: ['React', 'TypeScript'],
+    technologies: ['React', 'TypeScript', 'Bootstrap'],
   },
   {
     description: `
@@ -45,7 +47,7 @@ const projects: Project[] = [
   },
   {
     description: 'Android GUI Calculator for frequently used calculations.',
-    image: '',
+    image: napkin,
     link: '',
     name: 'Napkin',
     repositoryLink: 'https://github.com/chriscarrillo/Napkin',
@@ -55,7 +57,7 @@ const projects: Project[] = [
     description: `
       A recipe finder website that allows users to quickly and easily find recipes that fit into
       their dietary restrictions and/or what they have available to them.`,
-    image: '',
+    image: reciplease,
     link: '',
     name: 'Reciplease',
     repositoryLink: 'https://github.com/chriscarrillo/Reciplease',
@@ -83,7 +85,7 @@ export const Projects: React.FC = () => {
     const technologies = project.technologies.map((technology, index) => (
       <span key={technology}>
         {technology}
-        {index < project.technologies.length - 1 ? ' — ' : ''}
+        {index < project.technologies.length - 1 ? ', ' : ''}
       </span>
     ))
     const repoLink = project.repositoryLink !== undefined && project.repositoryLink.length > 0 && (
@@ -108,10 +110,10 @@ export const Projects: React.FC = () => {
     )
 
     return (
-      <Col key={project.name} as={CardDeck} className="py-2" md={6} sm={12}>
+      <Col key={project.name} as={CardDeck} className="py-2" md={4} sm={12}>
         <Card>
           <Card.Header className="d-flex justify-content-between">
-            <span className="h4 family-semi">{project.name}</span>
+            <span className="h5 family-semi">{project.name}</span>
             {projectLink}
           </Card.Header>
           {projectImage}

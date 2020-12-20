@@ -1,3 +1,4 @@
+@use 'mixins';
 @use 'variables';
 
 .card {
@@ -14,4 +15,8 @@
 
 .card-img {
   border-radius: 0 !important;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  background-position: center;
 }
