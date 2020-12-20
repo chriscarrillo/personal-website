@@ -9,7 +9,7 @@ import {Element} from 'react-scroll'
  * @return React component
  */
 export const MainPage: React.FC = () => (
-  <>
+  <main>
     <Element name="about">
       <About />
     </Element>
@@ -19,5 +19,5 @@ export const MainPage: React.FC = () => (
     <Element name="contact">
       <Contact />
     </Element>
-  </>
+  </main>
 )

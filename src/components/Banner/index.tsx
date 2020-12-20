@@ -21,9 +21,9 @@ export const Banner: React.FC = () => (
         text-center
         text-light`}
     >
-      <img alt="Avatar" className="pt-2" src={avatar} />
-      <h1 className="pt-2 pb-1 mb-0 family-semi">Chris Carrillo</h1>
-      <h2 className="h6 pb-2">Software Engineer - Coffee Lover - Enneagram Enthusiast</h2>
+      <img alt="Avatar" className="pt-3" src={avatar} />
+      <h1 className="pt-2 pb-1 mb-0 family-semi text-uppercase">Chris Carrillo</h1>
+      <h2 className="h6 pb-3">Software Engineer - Coffee Lover - Enneagram Enthusiast</h2>
     </div>
   </Element>
 )

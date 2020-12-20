@@ -1,0 +1,17 @@
+@use 'variables';
+
+.card {
+  border-radius: 0.75rem !important;
+  padding-top: variables.$spacing-small;
+  padding-bottom: variables.$spacing-small;
+}
+
+.card-header,
+.card-footer {
+  background-color: variables.$background-color !important;
+  border: none !important;
+}
+
+.card-img {
+  border-radius: 0 !important;
+}

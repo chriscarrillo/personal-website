@@ -30,6 +30,8 @@ export const Header: React.FC = () => (
             activeClass="text-primary"
             as={Link}
             className={styles.navLink}
+            eventKey={1}
+            offset={-64}
             to="home"
           >
             Home
@@ -40,6 +42,8 @@ export const Header: React.FC = () => (
             activeClass="text-primary"
             as={Link}
             className={styles.navLink}
+            eventKey={2}
+            offset={-64}
             to="about"
           >
             About
@@ -50,6 +54,8 @@ export const Header: React.FC = () => (
             activeClass="text-primary"
             as={Link}
             className={styles.navLink}
+            eventKey={3}
+            offset={-64}
             to="projects"
           >
             Projects
@@ -60,6 +66,8 @@ export const Header: React.FC = () => (
             activeClass="text-primary"
             as={Link}
             className={styles.navLink}
+            eventKey={4}
+            offset={-64}
             to="contact"
           >
             Contact
