@@ -108,7 +108,7 @@ export const Projects: React.FC = () => {
     )
 
     return (
-      <Col key={project.name} as={CardDeck} className="py-2" md={4} sm={12}>
+      <Col key={project.name} as={CardDeck} className="py-2" md={6} sm={12}>
         <Card>
           <Card.Header className="d-flex justify-content-between">
             <span className="h4 family-semi">{project.name}</span>
@@ -133,7 +133,7 @@ export const Projects: React.FC = () => {
 
   return (
     <section className="bg-light py-4">
-      <Container fluid className="d-flex flex-column align-items-center justify-content-center">
+      <Container className="d-flex flex-column align-items-center justify-content-center">
         <h1 className="text-dark text-uppercase family-semi pb-2 mb-0">Projects</h1>
         <Row className="justify-content-center">{projectsRow}</Row>
       </Container>

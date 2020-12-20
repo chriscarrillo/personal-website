@@ -7,7 +7,7 @@ import {Col, Container, Row} from 'react-bootstrap'
  */
 export const About: React.FC = () => (
   <section className="py-4">
-    <Container fluid className="d-flex flex-column align-items-center justify-content-center">
+    <Container className="d-flex flex-column align-items-center justify-content-center">
       <h1 className="text-dark text-uppercase family-semi pb-2 mb-0">About</h1>
       <Row>
         <Col md={6} sm={12}>
