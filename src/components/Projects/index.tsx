@@ -132,7 +132,7 @@ export const Projects: React.FC = () => {
   })
 
   return (
-    <section className="bg-light pt-2">
+    <section className="bg-light py-2">
       <Container fluid className="d-flex flex-column align-items-center justify-content-center">
         <h1 className="text-dark text-uppercase family-semi pb-2 mb-0">Projects</h1>
         <Row className="justify-content-center">{projectsRow}</Row>

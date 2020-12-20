@@ -1,0 +1,23 @@
+@use 'src/theme/mixins';
+@use 'src/theme/variables';
+
+.contact {
+  background-color: variables.$darkVariant;
+}
+
+.form {
+  @include mixins.media-breakpoint-down(lg) {
+    width: 90%;
+  }
+
+  @include mixins.media-breakpoint-up(lg) {
+    width: 40%;
+  }
+
+  input[type='text'],
+  input[type='email'],
+  textarea {
+    background-color: variables.$dark;
+    border: none;
+  }
+}
