@@ -18,8 +18,11 @@ body {
 }
 
 .social-link {
+  transition: all 0.2s;
+
   &:hover {
     color: $primary !important;
+    transition: all 0.2s;
   }
 }
 

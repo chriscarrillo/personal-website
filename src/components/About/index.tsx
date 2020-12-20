@@ -6,7 +6,7 @@ import {Col, Container, Row} from 'react-bootstrap'
  * @return React components
  */
 export const About: React.FC = () => (
-  <section className="py-2">
+  <section className="py-4">
     <Container fluid className="d-flex flex-column align-items-center justify-content-center">
       <h1 className="text-dark text-uppercase family-semi pb-2 mb-0">About</h1>
       <Row>
@@ -16,9 +16,9 @@ export const About: React.FC = () => (
         <Col md={6} sm={12}>
           <p>I&apos;m Chris, a software engineer based in Dallas, Texas.</p>
           <p>
-            I am passionate about the ins and outs of applications that you see on the web. That
-            includes front-end libraries and frameworks, back-end API&apos;s, and relational and
-            non-relational databases.
+            I am a coffee lover and enneagram enthusiast that is passionate about the ins and outs
+            of applications that you see on the web. That includes front-end libraries and
+            frameworks, back-end API&apos;s, and relational and non-relational databases.
           </p>
           <p>
             After graduating from California Baptist University with a Bachelor of Science in

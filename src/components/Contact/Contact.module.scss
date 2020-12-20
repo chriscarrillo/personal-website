@@ -16,7 +16,8 @@
 
   input[type='text'],
   input[type='email'],
-  textarea {
+  textarea,
+  textarea:focus {
     background-color: variables.$dark;
     border: none;
   }

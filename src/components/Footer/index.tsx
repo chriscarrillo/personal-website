@@ -54,7 +54,7 @@ export const Footer: React.FC = () => (
       </Row>
       <Row noGutters>
         <Col>
-          <p className="mb-0">
+          <p className="mb-0 pt-1">
             <span className="text-primary">Chris Carrillo</span> &copy; 2020
           </p>
         </Col>

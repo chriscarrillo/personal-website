@@ -31,7 +31,7 @@ export const Contact: React.FC = () => {
     console.log('hey')
   }
   return (
-    <section className={`py-2 text-light ${styles.contact}`}>
+    <section className={`py-4 text-light ${styles.contact}`}>
       <Container fluid className="d-flex flex-column align-items-center justify-content-center">
         <h1 className="text-uppercase family-semi pb-2 mb-0">Contact</h1>
         <Formik
