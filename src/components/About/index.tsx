@@ -1,6 +1,7 @@
 import Aos from 'aos'
+import chris from 'assets/images/chris.jpg'
 import React, {useEffect} from 'react'
-import {Col, Container, Row} from 'react-bootstrap'
+import {Col, Container, Image, Row} from 'react-bootstrap'
 
 /**
  * About section.
@@ -16,9 +17,9 @@ export const About: React.FC = () => {
         <h1 className="text-dark text-uppercase family-semi pb-2 mb-0" data-aos="flip-up">
           About
         </h1>
-        <Row>
-          <Col data-aos="fade-right" md={6} sm={12}>
-            <span>Picture will be here.</span>
+        <Row className="align-items-center">
+          <Col className="d-flex justify-content-center py-2" data-aos="fade-right" md={6} sm={12}>
+            <Image rounded alt="Chris Carrillo" className="w-50" src={chris} />
           </Col>
           <Col data-aos="fade-left" md={6} sm={12}>
             <p>I&apos;m Chris, a software engineer based in Dallas, Texas.</p>

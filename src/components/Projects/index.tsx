@@ -34,7 +34,7 @@ const projects: Project[] = [
     link: '',
     name: 'Kenna Ledbetter Coaching',
     repositoryLink: '',
-    technologies: ['React', 'TypeScript', 'Commerce.js'],
+    technologies: ['React', 'TypeScript', 'Commerce.js', 'Stripe'],
   },
   {
     description: `
@@ -62,7 +62,7 @@ const projects: Project[] = [
     link: '',
     name: 'Reciplease',
     repositoryLink: 'https://github.com/chriscarrillo/Reciplease',
-    technologies: ['PHP', 'Python'],
+    technologies: ['PHP', 'JavaScript'],
   },
 ]
 
