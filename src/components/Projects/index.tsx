@@ -1,8 +1,9 @@
+import Aos from 'aos'
 import klawWeb from 'assets/images/klaw-web.png'
 import napkin from 'assets/images/napkin.png'
 import reciplease from 'assets/images/reciplease.png'
 import {Project} from 'models'
-import React from 'react'
+import React, {useEffect} from 'react'
 import {Card, CardDeck, Col, Container, Row} from 'react-bootstrap'
 import {FaExternalLinkAlt, FaGithub} from 'react-icons/fa'
 import {MdDeveloperMode} from 'react-icons/md'
@@ -70,6 +71,10 @@ const projects: Project[] = [
  * @return React components
  */
 export const Projects: React.FC = () => {
+  useEffect(() => {
+    Aos.init({disable: 'mobile', duration: 1000, easing: 'ease-in-sine', once: true})
+  }, [])
+
   const projectsRow = projects.map(project => {
     const projectImage =
       project.image.length === 0 ? (
@@ -111,7 +116,7 @@ export const Projects: React.FC = () => {
 
     return (
       <Col key={project.name} as={CardDeck} className="py-2" md={4} sm={12}>
-        <Card>
+        <Card data-aos="flip-left">
           <Card.Header className="d-flex justify-content-between">
             <span className="h5 family-semi">{project.name}</span>
             {projectLink}
@@ -136,7 +141,9 @@ export const Projects: React.FC = () => {
   return (
     <section className="bg-light py-4">
       <Container className="d-flex flex-column align-items-center justify-content-center">
-        <h1 className="text-dark text-uppercase family-semi pb-2 mb-0">Projects</h1>
+        <h1 className="text-dark text-uppercase family-semi pb-2 mb-0" data-aos="flip-up">
+          Projects
+        </h1>
         <Row className="justify-content-center">{projectsRow}</Row>
       </Container>
     </section>

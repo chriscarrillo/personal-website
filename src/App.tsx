@@ -8,6 +8,9 @@ import {BrowserRouter} from 'react-router-dom'
 /** Theme. */
 import './theme/app.scss'
 
+/** Aos. */
+import 'aos/dist/aos.css'
+
 /**
  * Main app.
  * @return Main application.

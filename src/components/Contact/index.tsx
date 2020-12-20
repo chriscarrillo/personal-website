@@ -1,7 +1,8 @@
+import Aos from 'aos'
 import styles from 'components/Contact/Contact.module.scss'
 import {Form, Formik, FormikProps} from 'formik'
 import {ContactFormValues} from 'models/FormValues'
-import React from 'react'
+import React, {useEffect} from 'react'
 import {Form as BootstrapForm, Button, Container} from 'react-bootstrap'
 import * as Yup from 'yup'
 
@@ -24,6 +25,10 @@ const ContactFormSchema = Yup.object().shape({
  * @return React components
  */
 export const Contact: React.FC = () => {
+  useEffect(() => {
+    Aos.init({disable: 'mobile', duration: 800, easing: 'ease-in-sine', once: true})
+  }, [])
+
   /**
    * Submit the form.
    */
@@ -33,7 +38,9 @@ export const Contact: React.FC = () => {
   return (
     <section className={`py-4 text-light ${styles.contact}`}>
       <Container className="d-flex flex-column align-items-center justify-content-center">
-        <h1 className="text-uppercase family-semi pb-2 mb-0">Contact</h1>
+        <h1 className="text-uppercase family-semi pb-2 mb-0" data-aos="flip-up">
+          Contact
+        </h1>
         <Formik
           validateOnBlur
           initialValues={initialFormValues}
@@ -42,7 +49,7 @@ export const Contact: React.FC = () => {
         >
           {(props: FormikProps<ContactFormValues>) => (
             <Form className={styles.form}>
-              <BootstrapForm.Group controlId="name">
+              <BootstrapForm.Group controlId="name" data-aos="flip-up">
                 <BootstrapForm.Control
                   placeholder="Name"
                   type="text"
@@ -57,7 +64,7 @@ export const Contact: React.FC = () => {
                 )}
               </BootstrapForm.Group>
 
-              <BootstrapForm.Group controlId="email">
+              <BootstrapForm.Group controlId="email" data-aos="flip-up">
                 <BootstrapForm.Control
                   placeholder="Email"
                   type="email"
@@ -72,7 +79,7 @@ export const Contact: React.FC = () => {
                 )}
               </BootstrapForm.Group>
 
-              <BootstrapForm.Group controlId="subject">
+              <BootstrapForm.Group controlId="subject" data-aos="flip-up">
                 <BootstrapForm.Control
                   placeholder="Subject"
                   type="text"
@@ -87,7 +94,7 @@ export const Contact: React.FC = () => {
                 )}
               </BootstrapForm.Group>
 
-              <BootstrapForm.Group controlId="message">
+              <BootstrapForm.Group controlId="message" data-aos="flip-up">
                 <BootstrapForm.Control
                   as="textarea"
                   placeholder="Message"
@@ -103,10 +110,10 @@ export const Contact: React.FC = () => {
                 )}
               </BootstrapForm.Group>
               <div className="d-flex justify-content-center py-1">
-                <Button className="mr-2" type="submit">
+                <Button className="mr-2" data-aos="fade-right" type="submit">
                   Send
                 </Button>
-                <Button type="reset" variant="secondary">
+                <Button data-aos="fade-left" type="reset" variant="secondary">
                   Reset
                 </Button>
               </div>
