@@ -1,6 +1,7 @@
 import Aos from 'aos'
 import klawWeb from 'assets/images/klaw-web.png'
 import napkin from 'assets/images/napkin.png'
+import portfolio from 'assets/images/portfolio.png'
 import reciplease from 'assets/images/reciplease.png'
 import {Project} from 'models'
 import React, {useEffect} from 'react'
@@ -9,23 +10,6 @@ import {FaExternalLinkAlt, FaGithub} from 'react-icons/fa'
 import {MdDeveloperMode} from 'react-icons/md'
 
 const projects: Project[] = [
-  {
-    description: 'A personal website that showcases my projects and shares more info about me.',
-    image: '',
-    link: '',
-    name: 'Portfolio',
-    repositoryLink: 'https://github.com/chriscarrillo/personal-website',
-    technologies: ['React', 'TypeScript', 'Bootstrap'],
-  },
-  {
-    description: `
-      A web application to create meal plans and add meals for those corresponding plans.`,
-    image: '',
-    link: '',
-    name: 'Swole Your Rolls',
-    repositoryLink: 'https://github.com/chriscarrillo/swole-your-rolls',
-    technologies: ['React', 'TypeScript', 'Firebase'],
-  },
   {
     description: `
       An e-commerce, business website for a life and ennegram coach in which customers can buy
@@ -38,6 +22,23 @@ const projects: Project[] = [
   },
   {
     description: `
+      A web application to create meal plans and add meals for those corresponding plans.`,
+    image: '',
+    link: '',
+    name: 'Swole Your Rolls',
+    repositoryLink: 'https://github.com/chriscarrillo/swole-your-rolls',
+    technologies: ['React', 'TypeScript', 'Firebase'],
+  },
+  {
+    description: 'A personal website that showcases my projects and shares more info about me.',
+    image: portfolio,
+    link: '',
+    name: 'Portfolio',
+    repositoryLink: 'https://github.com/chriscarrillo/personal-website',
+    technologies: ['React', 'TypeScript', 'Bootstrap'],
+  },
+  {
+    description: `
       An educational website designed to help STEM students and hobbyists learn about
       robotics and programming.`,
     image: klawWeb,
@@ -47,7 +48,9 @@ const projects: Project[] = [
     technologies: ['Angular', 'JavaScript', 'Blockly', 'Flask', 'Python', 'WebGL'],
   },
   {
-    description: 'Android GUI Calculator for frequently used calculations.',
+    description: `
+      Android GUI Calculator for frequently used calculations. This includes lifestyle,
+      finance, school, and conversion calculators.`,
     image: napkin,
     link: '',
     name: 'Napkin',
