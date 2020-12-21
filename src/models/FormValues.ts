@@ -1,7 +1,7 @@
 /**
- * Contact form values.
+ * Contact form input values.
  */
-export interface ContactFormValues {
+export interface ContactFormInputs {
   name: string
   subject: string
   email: string
