@@ -9,7 +9,7 @@ import {Col, Container, Image, Row} from 'react-bootstrap'
  */
 export const About: React.FC = () => {
   useEffect(() => {
-    Aos.init({disable: 'mobile', duration: 800, easing: 'ease-in-sine', once: true})
+    Aos.init({duration: 800, easing: 'ease-in-sine', once: true})
   })
   return (
     <section className="py-4">

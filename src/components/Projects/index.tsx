@@ -72,7 +72,7 @@ const projects: Project[] = [
  */
 export const Projects: React.FC = () => {
   useEffect(() => {
-    Aos.init({disable: 'mobile', duration: 1000, easing: 'ease-in-sine', once: true})
+    Aos.init({duration: 1000, easing: 'ease-in-sine', once: true})
   }, [])
 
   const projectsRow = projects.map(project => {

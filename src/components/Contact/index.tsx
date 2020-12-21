@@ -20,7 +20,7 @@ export const Contact: React.FC = () => {
    * Effects.
    */
   useEffect(() => {
-    Aos.init({disable: 'mobile', duration: 800, easing: 'ease-in-sine', once: true})
+    Aos.init({duration: 800, easing: 'ease-in-sine', once: true})
   }, [])
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
