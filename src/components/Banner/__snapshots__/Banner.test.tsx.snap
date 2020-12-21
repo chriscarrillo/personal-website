@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Banner /> should render as expected 1`] = `
+<div
+  name="home"
+>
+  <div
+    className="
+        banner
+        bg-dark
+        w-100
+        d-flex
+        flex-column
+        justify-content-center
+        align-items-center
+        text-center
+        text-light"
+  >
+    <img
+      alt="Avatar"
+      className="pt-3"
+      data-testid="avatar"
+      src="avatar.svg"
+    />
+    <h1
+      className="pt-2 pb-1 mb-0 family-semi text-uppercase"
+    >
+      Chris Carrillo
+    </h1>
+    <h2
+      className="h6 pb-3"
+    >
+      Software Engineer - Coffee Lover - Enneagram Enthusiast
+    </h2>
+  </div>
+</div>
+`;

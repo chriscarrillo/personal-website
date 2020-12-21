@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Contact /> should render as expected 1`] = `
+<section
+  className="py-4 text-light contact"
+>
+  <div
+    className="d-flex flex-column align-items-center justify-content-center container"
+  >
+    <h1
+      className="text-uppercase family-semi pb-2 mb-0"
+      data-aos="flip-up"
+    >
+      Contact
+    </h1>
+    <form
+      className="form"
+      onSubmit={[Function]}
+    >
+      <div
+        className="form-group"
+        data-aos="flip-up"
+      >
+        <input
+          className="form-control"
+          id="name"
+          name="name"
+          placeholder="Name"
+          required={true}
+          type="text"
+        />
+      </div>
+      <div
+        className="form-group"
+        data-aos="flip-up"
+      >
+        <input
+          className="form-control"
+          id="email"
+          name="email"
+          placeholder="Email"
+          required={true}
+          type="email"
+        />
+      </div>
+      <div
+        className="form-group"
+        data-aos="flip-up"
+      >
+        <input
+          className="form-control"
+          id="subject"
+          name="subject"
+          placeholder="Subject"
+          required={true}
+          type="text"
+        />
+      </div>
+      <div
+        className="form-group"
+        data-aos="flip-up"
+      >
+        <textarea
+          className="form-control"
+          id="message"
+          name="message"
+          placeholder="Message"
+          required={true}
+          rows={4}
+        />
+      </div>
+      <div
+        className="d-flex justify-content-center py-1"
+      >
+        <button
+          className="mr-2 btn btn-primary"
+          data-aos="fade-right"
+          disabled={false}
+          type="submit"
+        >
+          Send
+        </button>
+        <button
+          className="btn btn-secondary"
+          data-aos="fade-left"
+          disabled={false}
+          type="reset"
+        >
+          Reset
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
+`;

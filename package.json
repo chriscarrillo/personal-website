@@ -57,6 +57,7 @@
     "@types/react-bootstrap": "^0.32.25",
     "@types/react-router-dom": "^5.1.6",
     "@types/react-scroll": "^1.8.2",
+    "@types/react-test-renderer": "^17.0.0",
     "@typescript-eslint/eslint-plugin": "^4.9.1",
     "@typescript-eslint/parser": "^4.9.1",
     "eslint": "^7.15.0",
@@ -68,6 +69,7 @@
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-sonarjs": "^0.5.0",
-    "prettier": "^2.2.1"
+    "prettier": "^2.2.1",
+    "react-test-renderer": "^17.0.1"
   }
 }

@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<About /> should render as expected 1`] = `
+<section
+  className="py-4"
+>
+  <div
+    className="d-flex flex-column align-items-center justify-content-center container"
+  >
+    <h1
+      className="text-dark text-uppercase family-semi pb-2 mb-0"
+      data-aos="flip-up"
+    >
+      About
+    </h1>
+    <div
+      className="align-items-center row"
+    >
+      <div
+        className="d-flex justify-content-center py-2 col-md-6 col-sm-12"
+        data-aos="fade-right"
+      >
+        <img
+          alt="Chris Carrillo"
+          className="w-50 img-fluid rounded"
+          data-testid="chrisPhoto"
+          src="chris.jpg"
+        />
+      </div>
+      <div
+        className="col-md-6 col-sm-12"
+        data-aos="fade-left"
+      >
+        <p>
+          I'm Chris, a software engineer based in Dallas, Texas.
+        </p>
+        <p>
+          I am a coffee lover and enneagram enthusiast that is passionate about the ins and outs of applications that you see on the web. That includes front-end libraries and frameworks, back-end API's, and relational and non-relational databases.
+        </p>
+        <p>
+          After graduating from California Baptist University with a Bachelor of Science in Software Engineering, I moved to Dallas and started my career as a software engineer, creating intentional and meaningful applications.
+        </p>
+        <p>
+          Just a few of my favorite technologies:
+        </p>
+        <div
+          className="row"
+        >
+          <div
+            className="pl-0 col-md-4 col-sm-12"
+          >
+            <ul>
+              <li>
+                React
+              </li>
+              <li>
+                Angular
+              </li>
+              <li>
+                Gatsby
+              </li>
+            </ul>
+          </div>
+          <div
+            className="pl-0 col-md-4 col-sm-12"
+          >
+            <ul>
+              <li>
+                Commerce.js
+              </li>
+              <li>
+                C#
+              </li>
+              <li>
+                Java
+              </li>
+            </ul>
+          </div>
+          <div
+            className="pl-0 col-md-4 col-sm-12"
+          >
+            <ul>
+              <li>
+                SQL Server
+              </li>
+              <li>
+                Firebase
+              </li>
+              <li>
+                Azure
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;

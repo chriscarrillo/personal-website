@@ -19,7 +19,14 @@ export const About: React.FC = () => {
         </h1>
         <Row className="align-items-center">
           <Col className="d-flex justify-content-center py-2" data-aos="fade-right" md={6} sm={12}>
-            <Image fluid rounded alt="Chris Carrillo" className="w-50" src={chris} />
+            <Image
+              fluid
+              rounded
+              alt="Chris Carrillo"
+              className="w-50"
+              data-testid="chrisPhoto"
+              src={chris}
+            />
           </Col>
           <Col data-aos="fade-left" md={6} sm={12}>
             <p>I&apos;m Chris, a software engineer based in Dallas, Texas.</p>

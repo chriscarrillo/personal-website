@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render as expected 1`] = `
+<header
+  className="text-uppercase"
+>
+  <nav
+    className="navbar navbar navbar-expand-md navbar-dark bg-dark fixed-top"
+  >
+    <span
+      className="navbar-brand"
+    >
+      Chris Carrillo
+    </span>
+    <button
+      aria-controls="responsive-navbar-nav"
+      aria-label="Toggle navigation"
+      className="navbar-toggler collapsed"
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      aria-expanded={null}
+      className="navbar-collapse collapse"
+      id="responsive-navbar-nav"
+    >
+      <div
+        className="ml-auto navbar-nav"
+        onKeyDown={[Function]}
+      >
+        <a
+          className="navLink nav-link"
+          data-rb-event-key="1"
+          data-testid="navLink"
+          disabled={false}
+          onClick={[Function]}
+        >
+          Home
+        </a>
+        <a
+          className="navLink nav-link"
+          data-rb-event-key="2"
+          data-testid="navLink"
+          disabled={false}
+          onClick={[Function]}
+        >
+          About
+        </a>
+        <a
+          className="navLink nav-link"
+          data-rb-event-key="3"
+          data-testid="navLink"
+          disabled={false}
+          onClick={[Function]}
+        >
+          Projects
+        </a>
+        <a
+          className="navLink nav-link"
+          data-rb-event-key="4"
+          data-testid="navLink"
+          disabled={false}
+          onClick={[Function]}
+        >
+          Contact
+        </a>
+      </div>
+    </div>
+  </nav>
+</header>
+`;

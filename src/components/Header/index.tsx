@@ -1,7 +1,6 @@
 import styles from 'components/Header/Header.module.scss'
 import React from 'react'
 import {Nav, Navbar} from 'react-bootstrap'
-import {NavLink} from 'react-router-dom'
 import {Link} from 'react-scroll'
 
 /**
@@ -18,9 +17,7 @@ export const Header: React.FC = () => (
       fixed="top"
       variant="dark"
     >
-      <Navbar.Brand exact as={NavLink} to="/">
-        Chris Carrillo
-      </Navbar.Brand>
+      <Navbar.Brand>Chris Carrillo</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto">
@@ -30,6 +27,7 @@ export const Header: React.FC = () => (
             activeClass="text-primary"
             as={Link}
             className={styles.navLink}
+            data-testid="navLink"
             eventKey={1}
             offset={-60}
             to="home"
@@ -42,6 +40,7 @@ export const Header: React.FC = () => (
             activeClass="text-primary"
             as={Link}
             className={styles.navLink}
+            data-testid="navLink"
             eventKey={2}
             offset={-60}
             to="about"
@@ -54,6 +53,7 @@ export const Header: React.FC = () => (
             activeClass="text-primary"
             as={Link}
             className={styles.navLink}
+            data-testid="navLink"
             eventKey={3}
             offset={-60}
             to="projects"
@@ -66,6 +66,7 @@ export const Header: React.FC = () => (
             activeClass="text-primary"
             as={Link}
             className={styles.navLink}
+            data-testid="navLink"
             eventKey={4}
             offset={-60}
             to="contact"
