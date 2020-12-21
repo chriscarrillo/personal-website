@@ -8,11 +8,42 @@ exports[`<Contact /> should render as expected 1`] = `
     className="d-flex flex-column align-items-center justify-content-center container"
   >
     <h1
-      className="text-uppercase family-semi pb-2 mb-0"
+      className="text-uppercase family-semi mb-0"
       data-aos="flip-up"
     >
       Contact
     </h1>
+    <div
+      className="d-flex w-100 align-items-center justify-content-center"
+    >
+      <div
+        className="bg-light mb-2 mr-1 divider"
+      />
+      <svg
+        className="text-light mb-2"
+        fill="currentColor"
+        height={40}
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 16 16"
+        width={40}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M5.854 4.146a.5.5 0 010 .708L2.707 8l3.147 3.146a.5.5 0 01-.708.708l-3.5-3.5a.5.5 0 010-.708l3.5-3.5a.5.5 0 01.708 0zm4.292 0a.5.5 0 000 .708L13.293 8l-3.147 3.146a.5.5 0 00.708.708l3.5-3.5a.5.5 0 000-.708l-3.5-3.5a.5.5 0 00-.708 0z"
+          fillRule="evenodd"
+        />
+      </svg>
+      <div
+        className="bg-light mb-2 ml-1 divider"
+      />
+    </div>
     <form
       className="form"
       onSubmit={[Function]}

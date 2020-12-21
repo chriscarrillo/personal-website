@@ -1,4 +1,5 @@
 import Aos from 'aos'
+import {Divider} from 'common/components/Divider'
 import React, {useEffect} from 'react'
 import {Card, CardDeck, Col, Container, Row} from 'react-bootstrap'
 import {FaExternalLinkAlt, FaGithub} from 'react-icons/fa'
@@ -80,9 +81,10 @@ export const Projects: React.FC = () => {
   return (
     <section className="bg-light py-4">
       <Container className="d-flex flex-column align-items-center justify-content-center">
-        <h1 className="text-dark text-uppercase family-semi pb-2 mb-0" data-aos="flip-up">
+        <h1 className="text-dark text-uppercase family-semi mb-0" data-aos="flip-up">
           Projects
         </h1>
+        <Divider color="dark" />
         <Row className="justify-content-center">{projectsRow}</Row>
       </Container>
     </section>

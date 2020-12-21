@@ -20,5 +20,6 @@
   textarea:focus {
     background-color: variables.$dark;
     border: none;
+    color: variables.$light;
   }
 }

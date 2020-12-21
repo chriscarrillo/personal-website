@@ -1,5 +1,6 @@
 import Aos from 'aos'
 import chris from 'assets/images/chris.jpg'
+import {Divider} from 'common/components/Divider'
 import React, {useEffect} from 'react'
 import {Col, Container, Image, Row} from 'react-bootstrap'
 
@@ -14,9 +15,10 @@ export const About: React.FC = () => {
   return (
     <section className="py-4">
       <Container className="d-flex flex-column align-items-center justify-content-center">
-        <h1 className="text-dark text-uppercase family-semi pb-2 mb-0" data-aos="flip-up">
+        <h1 className="text-dark text-uppercase family-semi mb-0" data-aos="flip-up">
           About
         </h1>
+        <Divider color="dark" />
         <Row className="align-items-center">
           <Col className="d-flex justify-content-center py-2" data-aos="fade-right" md={6} sm={12}>
             <Image
