@@ -48,7 +48,7 @@ exports[`<About /> should render as expected 1`] = `
       className="align-items-center row"
     >
       <div
-        className="d-flex justify-content-center py-2 col-md-6 col-sm-12"
+        className="ud-flex justify-content-center col-md-6 col-sm-12"
         data-aos="fade-right"
       >
         <img
@@ -59,7 +59,7 @@ exports[`<About /> should render as expected 1`] = `
         />
       </div>
       <div
-        className="col-md-6 col-sm-12"
+        className="pt-2 col-md-6 col-sm-12"
         data-aos="fade-left"
       >
         <p>

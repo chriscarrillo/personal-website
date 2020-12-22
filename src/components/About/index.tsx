@@ -21,7 +21,7 @@ export const About: React.FC = () => {
         </h1>
         <Divider color="dark" />
         <Row className="align-items-center">
-          <Col className="d-flex justify-content-center py-2" data-aos="fade-right" md={6} sm={12}>
+          <Col className="ud-flex justify-content-center" data-aos="fade-right" md={6} sm={12}>
             <Image
               fluid
               rounded
@@ -31,7 +31,7 @@ export const About: React.FC = () => {
               src={chris}
             />
           </Col>
-          <Col data-aos="fade-left" md={6} sm={12}>
+          <Col className="pt-2" data-aos="fade-left" md={6} sm={12}>
             <p>I&apos;m Chris, a software engineer based in Dallas, Texas.</p>
             <p>
               I am a coffee lover and enneagram enthusiast that is passionate about the ins and outs
