@@ -1,0 +1,7 @@
+@use 'src/theme/mixins';
+
+.picture {
+  @include mixins.media-breakpoint-up(lg) {
+    width: 70%;
+  }
+}

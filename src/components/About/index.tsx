@@ -1,6 +1,7 @@
 import Aos from 'aos'
 import chris from 'assets/images/chris.jpg'
 import {Divider} from 'common/components/Divider'
+import styles from 'components/About/About.module.scss'
 import React, {useEffect} from 'react'
 import {Col, Container, Image, Row} from 'react-bootstrap'
 
@@ -25,7 +26,7 @@ export const About: React.FC = () => {
               fluid
               rounded
               alt="Chris Carrillo"
-              className="w-50"
+              className={styles.picture}
               data-testid="chrisPhoto"
               src={chris}
             />
