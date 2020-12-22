@@ -53,7 +53,7 @@ exports[`<About /> should render as expected 1`] = `
       >
         <img
           alt="Chris Carrillo"
-          className="w-50 img-fluid rounded"
+          className="h-auto picture img-fluid rounded"
           data-testid="chrisPhoto"
           src="chris.jpg"
         />
