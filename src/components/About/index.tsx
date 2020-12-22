@@ -26,7 +26,7 @@ export const About: React.FC = () => {
               fluid
               rounded
               alt="Chris Carrillo"
-              className={`h-auto ${styles.picture}`}
+              className={styles.picture}
               data-testid="chrisPhoto"
               src={chris}
             />
